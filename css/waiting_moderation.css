@@ -1,0 +1,8 @@
+.waiting_moderation .user-post__post{
+    border:3px solid #FF0000;
+}
+.thread_mod_actions{
+    border:1px solid #444;
+    padding: 6px;
+    margin: 0 0 10px 0;
+}

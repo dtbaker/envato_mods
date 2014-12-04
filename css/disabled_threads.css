@@ -1,0 +1,7 @@
+.thread.thread_disabled{
+    opacity: 0.2;
+    padding: 11px 20px;
+}
+.thread.thread_disabled .thread__title a{
+    font-size: 16px
+}

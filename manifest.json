@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "js": ["script.js"],
+            "matches": [
+                "http://activeden.net/*",
+                "http://audiojungle.net/*",
+                "http://themeforest.net/*",
+                "http://videohive.net/*",
+                "http://graphicriver.net/*",
+                "http://3docean.net/*",
+                "http://codecanyon.net/*",
+                "http://photodune.net/*"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "web_accessible_resources": [
+        "*.js",
+        "img/*.png",
+        "img/*.gif",
+        "css/*.css"
+      ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "64": "icon.png",
+        "128": "icon.png"
+    },
+    "description": "Mod Tools for the Envato Market.",
+    "name": "Mod Tools for the Envato Market",
+    "version": "1.0.1"
+}
